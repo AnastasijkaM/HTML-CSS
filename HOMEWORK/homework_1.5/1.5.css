@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://plus.unsplash.com/premium_photo-1664445407815-aed8dbc68488?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-attachment: fixed;
+    background-position: center;
+
+
+}
+h3{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+h2{
+    margin-left: 30px;
+    padding: 30px;
+}
+p{
+    width: 40%;
+    height: 50px;
+    display: inline-block;
+    margin-top:0px;
+    margin-left:10px;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding-top: 30px;
+    margin-left:10px;
+}
