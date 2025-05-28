@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+/*.box {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    !*    margin: 0  10px;*!*/
+/*    !*}*!*/
+/*}*/
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.red p{
+    /*text-align: center;*/
+
+}
+.red img{
+    width: 50%;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.flex{
+    height: 100%;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
