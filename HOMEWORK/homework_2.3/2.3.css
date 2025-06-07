@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;}
 body{
+    line-height: 2;
     height: 100vh;}
+
 .weather{
+
     height: 100%;
     background-color: #6c826b;
     display: flex;
@@ -13,6 +16,7 @@ body{
     flex-wrap: wrap;
 }
 .info{
+    padding:10px;
     width: 200px;
     height: 200px;
     background-color: #c2e2ce;
@@ -24,6 +28,4 @@ body{
     transform: scale(1.1);
     transition: 1s;
 }
-.p{
-text-align: justify;
-}
+
