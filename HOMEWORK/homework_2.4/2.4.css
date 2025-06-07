@@ -1,23 +1,25 @@
-/*!*Створи веб-сторінку за макетом hw2.4: розмісти 5 блоків однакового розміру та будь якого кольору. Всередині кожного*!*/
-/*блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом*/
-/*('Rubik Pixels','Sedgwick Ave Display', 'Dancing Script',  'Fjalla One', 'Indie Flower')*!*/
-*{
+
+* {
     margin: 0;
-    padding: 0;}
-body{
+    padding: 0;
+}
+
+body {
     height: 100vh;
-background-color: #b4cfee;
+    background-color: #b4cfee;
 
 }
 
-.font{
+.font {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: normal;
 
-    }
-.squares{
+}
+
+.squares {
+
     width: 250px;
     height: 250px;
     background-color: #0c4f47;
@@ -27,28 +29,33 @@ background-color: #b4cfee;
     align-items: center;
 
 }
-.rubik{
+
+.rubik {
     font-family: "Rubik Pixels", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-.sedgwick{
+
+.sedgwick {
     font-family: "Sedgwick Ave Display", cursive;
     font-weight: 400;
     font-style: normal;
 }
-.dancing{
+
+.dancing {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-.fjalla{
+
+.fjalla {
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-.indie{
+
+.indie {
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
